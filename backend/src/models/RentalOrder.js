@@ -1,5 +1,4 @@
-// models/RentalOrder.js
-const mongoose = require("mongoose");
+import mongoose from "mongoose";
 
 const rentalOrderSchema = new mongoose.Schema(
   {

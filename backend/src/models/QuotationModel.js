@@ -1,5 +1,4 @@
-// models/Quotation.js
-const mongoose = require("mongoose");
+import mongoose from "mongoose";
 
 const quotationSchema = new mongoose.Schema(
   {
