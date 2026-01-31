@@ -12,9 +12,20 @@ import quotationRoutes from "./src/routes/quotation.routes.js";
 import rentalRoutes from "./src/routes/rental.routes.js";
 import userRoutes from "./src/routes/user.routes.js";
 
-
 dotenv.config();
-connectDB();
+
+const start = async () => {
+  try {
+    await connectDB();
+    app.listen(process.env.PORT || 5000, () =>
+      console.log(`Server running on port ${process.env.PORT || 5000}`)
+    );
+  } catch (err) {
+    console.error('Failed to start server', err);
+    process.exit(1);
+  }
+};
+start();
 
 const app = express();
 app.use(cors());
