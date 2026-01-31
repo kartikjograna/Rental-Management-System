@@ -4,7 +4,7 @@ import cors from "cors";
 import connectDB from "./config/db.js";
 import authRoutes from "./src/routes/auth.routes.js";
 import dashboardRoutes from "./src/routes/dashboard.routes.js";
-import inventoryRoutes from "./src/routes/inventory.routes.js";
+import inventoryRoutes from "./src/routes/reservation.routes.js";
 import invoiceRoutes from "./src/routes/invoice.routes.js";
 import paymentRoutes from "./src/routes/payment.routes.js";
 import productRoutes from "./src/routes/product.routes.js";
