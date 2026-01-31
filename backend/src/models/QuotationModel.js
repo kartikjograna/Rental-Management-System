@@ -30,4 +30,4 @@ const quotationSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-module.exports = mongoose.model("Quotation", quotationSchema);
+export default mongoose.model("Quotation", quotationSchema);

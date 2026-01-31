@@ -43,4 +43,4 @@ const rentalOrderSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-module.exports = mongoose.model("RentalOrder", rentalOrderSchema);
+export default mongoose.model("RentalOrder", rentalOrderSchema);
