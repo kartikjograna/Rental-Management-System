@@ -20,7 +20,7 @@ export default function Login({ switchToSignup }) {
                 localStorage.setItem("token", token);
                 api.defaults.headers.common.Authorization = `Bearer ${token}`;
             }
-            navigate("/dashboard");
+            navigate("/admin");
         } catch (err) {
             setError(err.response?.data?.message || err.message || "Login failed");
         } finally {
