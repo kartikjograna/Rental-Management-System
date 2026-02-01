@@ -55,30 +55,30 @@ This project was designed with **real-world business workflows** in mind and fol
 
 ## 📂 Project Structure
 
-Rental-Management-System/
-│
-├── backend/
-│ ├── config/
-│ ├── controllers/
-│ ├── middleware/
-│ ├── models/
-│ ├── routes/
-│ ├── server.js
-│ ├── package.json
-│ └── .env
-│
-├── frontend/
-│ ├── src/
-│ │ ├── api/
-│ │ ├── auth/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ ├── App.jsx
-│ │ └── main.jsx
-│ ├── package.json
-│ └── vite.config.js
-│
-└── README.md
+Rental-Management-System/ <br>
+│<br>
+├── backend/<br>
+│ ├── config/<br>
+│ ├── controllers/<br>
+│ ├── middleware/<br>
+│ ├── models/<br>
+│ ├── routes/<br>
+│ ├── server.js<br>
+│ ├── package.json<br>
+│ └── .env<br>
+│<br>
+├── frontend/<br>
+│ ├── src/<br>
+│ │ ├── api/<br>
+│ │ ├── auth/<br>
+│ │ ├── components/<br>
+│ │ ├── pages/<br>
+│ │ ├── App.jsx<br>
+│ │ └── main.jsx<br>
+│ ├── package.json<br>
+│ └── vite.config.js<br>
+│<br>
+└── README.md<br>
 ---
 
 ## ⚙️ Environment Variables
