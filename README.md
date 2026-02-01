@@ -124,7 +124,7 @@ http://localhost:5173
 
 # Contributors
 
-Arshad Khoja
-Kartik Jograna
-Yagnik Bhadiyadra
-Dev Lad
+Arshad Khoja <br>
+Kartik Jograna <br>
+Yagnik Bhadiyadra <br>
+Dev Lad <br>
