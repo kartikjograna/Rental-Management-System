@@ -98,7 +98,11 @@ CLIENT_URL=http://localhost:5173
 git clone https://github.com/your-username/rental-management-system.git
 cd rental-management-system
 
+```
+
 ### 2️⃣ Start Backend
+
+---
 
 cd backend
 npm install
